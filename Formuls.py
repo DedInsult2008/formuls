@@ -90,7 +90,7 @@ def check():
     print(activity(10, 10))
     print(root(3,8))
 
-print(check())    
+  
     
 
 
