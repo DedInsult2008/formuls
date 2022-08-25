@@ -70,6 +70,42 @@ def root(pow, num):#Корень любой степени
     if type(pow) == int or type(pow) == float and type(num) == int or type(num) == float:
         return num ** (1 / pow)
 
+def inch(centimeters):#Сантиметры в дюймы
+    if type(centimeters) == int or type(centimeters) == float:
+        return centimeters / 2.5
+
+def cent_i(inch):#Дюймы в сантиметры
+    if type(inch) == int or type(inch) == float:
+        return inch * 2.5
+
+def foot(centimeters):#Сантиметры в футы
+    if type(centimeters) == int or type(centimeters) == float:
+        return centimeters / 30.5
+
+def cent_f(feet):#Футы в сантиетры
+    if type(foot) == int or type(foot) == float:
+        return foot * 30.5
+
+def mile(kilometers):#Километры в мили
+    if type(kilometers) == int or type(kilometers) == float:
+        return kilometers / 1.6
+
+def kilometers(miles):
+    if type(miles) == int or type(miles) == float:
+        return miles * 1.6
+
+def kilometers_m(meters):#Метры в километры
+    if type(meters) == int or type(meters) == float:
+        return meters / 1000
+
+def meters_k(kilometers):#Километры в метры
+    if type(kilometers) == int or type(kilometers) == float:
+        return kilometers * 1000
+
+def meters_c(centimeters):#Сантиметры в метры
+    if type(centimeters)== int or type(centimeters) == float:
+        return centimeters / 1000
+
 def check():
     print(ktoc(10))
     print(ctok(10))
@@ -90,7 +126,7 @@ def check():
     print(activity(10, 10))
     print(root(3,8))
 
-  
+print(check())    
     
 
 
